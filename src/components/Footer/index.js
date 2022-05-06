@@ -1,31 +1,34 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IconContext } from "react-icons";
+
 
 function Footer() {
-    const icons = [
-      {
-        name: "fab fa-github",
-        link: "https://github.com/",
-      },
-      {
-        name: "fab fa-linkdedin",
-        link: "https://www.linkedin.com/",
-      },
-    ];
     return (
-      <footer className="flex-row px-1">
+      <footer className="px-1">
         <p>
             © 2022 Copyright: Ernest Paul
-            {icons.map((icon) => (
-                <a
-                    href={icon.link}
-                    key={icon.name}
+        </p>
+        <div className="pb-2">
+        <a
+                    href="https://github.com/Ernestpaul88"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i className={icon.name}></i>
+                <IconContext.Provider value={{className: "react-icons" }}>
+                  <FaGithub/>
+                </IconContext.Provider>
                 </a>
-        ))}
-        </p>
+                <a
+                    href="https://www.linkedin.com/in/ernest-paul"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                <IconContext.Provider value={{className: "react-icons" }}>
+                  <FaLinkedin/>
+                </IconContext.Provider>
+                </a>
+        </div>
       </footer>
     );
   }
