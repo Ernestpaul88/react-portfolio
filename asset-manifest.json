@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.86b82110.css",
+    "main.js": "/react-portfolio/static/js/main.d05b6ba8.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/travel-log-screen.png": "/react-portfolio/static/media/travel-log-screen.d706b155ad310dbd4b8a.png",
+    "static/media/Horiseon.png": "/react-portfolio/static/media/Horiseon.9b55c073a200e0a751f2.png",
+    "static/media/Developer1.PNG": "/react-portfolio/static/media/Developer1.7d884ea32d59ee76d24f.PNG",
+    "static/media/Background.jpg": "/react-portfolio/static/media/Background.550827e24356e5c28df4.jpg",
+    "static/media/Screenshot2-desktop.PNG": "/react-portfolio/static/media/Screenshot2-desktop.bc18c2ae7194acd7ef63.PNG",
+    "static/media/Ernest.jpg": "/react-portfolio/static/media/Ernest.9daeb7412341b93a92ca.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.86b82110.css.map": "/react-portfolio/static/css/main.86b82110.css.map",
+    "main.d05b6ba8.js.map": "/react-portfolio/static/js/main.d05b6ba8.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86b82110.css",
+    "static/js/main.d05b6ba8.js"
+  ]
+}
