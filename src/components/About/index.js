@@ -3,7 +3,7 @@ import coverImage from '../../assets/img/Ernest.jpg';
 
 function About() {
   return (
-    <div id="about" >
+    <div id="about" className='sections' >
         <aside className><h4>About Me</h4></aside>
         <hr className='my-4'></hr>
         <div className='container'>

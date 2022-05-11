@@ -146,25 +146,7 @@ main {
   border-radius: 6px;
 }
 
-#about {
-  padding-top: 15px;
-  padding-bottom: 48px;
-  margin-bottom: 30px;
-  color: inherit;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#resume {
-  padding-top: 15px;
-  padding-bottom: 48px;
-  margin-bottom: 30px;
-  color: inherit;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#contact {
+.sections {
   padding-top: 15px;
   padding-bottom: 48px;
   margin-bottom: 30px;
@@ -255,12 +237,55 @@ aside{
   width: 150px;
 }
 
+/* also stolen from boostrap */
+.projects-container > * {
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.card {
+  align-self: stretch;
+}
+
+.projects-container .card p {
+  font-size: 100%;
+}
+
+.projects-container .card h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+/* Hovering Img Styling and Transition */
+.projects-container div.card div:hover {
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  box-shadow: 10px 10px 5px #888888;
+  cursor: pointer;
+}
+
+
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
   .headline {
     margin-left: .25rem;
     font-size: .75rem !important;
   }
+
  }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -272,9 +297,38 @@ aside{
     flex-direction: column;
   }
 
+  .projects-container {
+    flex-direction: column !important;
+    align-items: center !important;
+
+  }
+
   textarea {
     width: 100%;
   }
+
+  .projects-container .card p {
+    font-size: 80%;
+  }
+  
+  .projects-container .card h5 {
+    font-size: 80%;
+  }
+
+  #home-jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+header {
+  overflow: hidden;
+}
+
+.navbar-nav{
+  font-size: small !important;
+}
+
  }
 
 /* // Medium devices (tablets, less than 992px) */

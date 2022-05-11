@@ -1,8 +1,8 @@
 import React from "react"
 import About from "../About";
 import Contact from "../Contact";
-import Resume from "../Resume"
-
+import Resume from "../Resume";
+import Portfolio from "../Portfolio";
 
 function Container({ currentPage }) {
   const renderPage = () => {
@@ -13,6 +13,8 @@ function Container({ currentPage }) {
         return <Contact />;
       case "resume":
         return <Resume />;
+      case "portfolio":
+          return <Portfolio />;
       default:
         return <About />;
     }
