@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description:
-
+E-portfolio creating using React. 
 
 ## Table of Contents
 
@@ -14,10 +14,11 @@
 
 ## Installation:
 
+- Install dependendecies: run 'npm install' from the root directory.
 
 ## Usage:
 
-
+- Start Application: run 'npm start' from the root directory.
 
 ## License:
 
