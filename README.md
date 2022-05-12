@@ -32,5 +32,4 @@ E-portfolio creating using React.
 
 ## Deployed Page:
 
-https://ernestpaul88.github.io/Developer-Portfolio/
-
+https://ernestpaul88.github.io/react-portfolio/
