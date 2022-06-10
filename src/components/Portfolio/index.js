@@ -4,6 +4,7 @@ import portfolio from '../../assets/img/Developer1.PNG';
 import horiseon from '../../assets/img/Horiseon.png';
 import crypto from '../../assets/img/Screenshot2-desktop.PNG';
 import travel from '../../assets/img/travel-log-screen.png';
+import garden from '../../assets/img/malvestida.jpg';
 
 function Porfolio() {
 
@@ -33,6 +34,12 @@ function Porfolio() {
         image: travel,
         repo: "https://github.com/adambowers09/project2/",
     },
+    {
+      name: "Garden Forum",
+      description: "A full-stack web app that allows users to build a virtual garden and Connect with other garden enthusiasts.",
+      image: garden,
+      repo: "https://gardenforum.herokuapp.com/",
+  },
 ];
 
     return (
